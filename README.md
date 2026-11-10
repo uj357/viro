@@ -1,6 +1,12 @@
 # VIRO
-Desk-clock launcher for Samsung SM-T295 (Android 9/10).
 
-1. Push this folder to GitHub (branch `main`).
-2. Actions tab -> Build APK -> download `VIRO-apk` -> install `app-debug.apk` on the tablet.
-3. Open VIRO -> follow the welcome screen (Spotify link + set as Home).
+Android desk-clock launcher for Samsung SM-T295 (Android 9/10).
+
+## Build APK
+
+GitHub Actions builds a debug APK automatically whenever changes are pushed to `main`, or manually from **Actions → Build APK → Run workflow**.
+
+1. Open the latest successful **Build APK** workflow run.
+2. Download the `VIRO-apk` artifact.
+3. Extract `app-debug.apk` and install it on the tablet.
+4. Open VIRO and follow the welcome screen to enable Spotify notification access and set VIRO as the Home app.
